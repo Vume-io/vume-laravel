@@ -390,16 +390,16 @@
         },
         {
             "name": "vume/vume-php",
-            "version": "v0.0.3",
+            "version": "v0.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Vume-io/vume-php.git",
-                "reference": "30a6728323645f941a076d05d2fc7f05a28a1780"
+                "reference": "cdf059a8f863d70812ec439282a05ed6171bf994"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Vume-io/vume-php/zipball/30a6728323645f941a076d05d2fc7f05a28a1780",
-                "reference": "30a6728323645f941a076d05d2fc7f05a28a1780",
+                "url": "https://api.github.com/repos/Vume-io/vume-php/zipball/cdf059a8f863d70812ec439282a05ed6171bf994",
+                "reference": "cdf059a8f863d70812ec439282a05ed6171bf994",
                 "shasum": ""
             },
             "require": {
@@ -441,9 +441,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Vume-io/vume-php/issues",
-                "source": "https://github.com/Vume-io/vume-php/tree/v0.0.3"
+                "source": "https://github.com/Vume-io/vume-php/tree/v0.0.5"
             },
-            "time": "2021-03-24T08:56:38+00:00"
+            "time": "2021-03-24T10:46:25+00:00"
         }
     ],
     "packages-dev": [
