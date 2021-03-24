@@ -14,7 +14,7 @@ class VumeServiceProvider extends ServiceProvider
         });
 
         $this->mergeConfigFrom(
-            __DIR__ . '/../config/vume.php',
+            __DIR__ . '/../Config/vume.php',
             'vume'
         );
     }
