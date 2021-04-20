@@ -9,6 +9,7 @@ return [
     */
 
     'api_endpoint' => 'https://cms.vume.io',
-    'api_access_token' => ''
+    'api_access_token' => '',
+    'inherit_app_locale' => false,
 
 ];
