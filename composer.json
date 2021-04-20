@@ -32,7 +32,7 @@
         }
     },
     "require": {
-        "vume/vume-php": "0.0.9"
+        "vume/vume-php": "0.0.10"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
