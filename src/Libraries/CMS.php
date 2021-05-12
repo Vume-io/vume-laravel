@@ -12,11 +12,6 @@ class CMS
     {
         $this->vume = new VumeCMS(config('vume.api_access_token'));
         $this->vume->setApiEndpoint(config('vume.api_endpoint'));
-
-        // Inherit Laravel app locale
-        if (config('vume.inherit_app_locale')) {
-            $this->vume->setLanguage(app()->getLocale());
-        }
     }
 
     public function __call($method, $args)

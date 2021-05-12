@@ -34,24 +34,4 @@ class CmsTest extends TestCase
 
         $this->assertEquals('Hello world', $entry->value('text'));
     }
-
-    public function testSectionEntryInheritLocale()
-    {
-        config(['vume.inherit_app_locale' => true]);
-        app()->setLocale('nl');
-
-        $entry = Vume::setAccessToken($this->test_access_token)->section('section-test')->entry();
-
-        $this->assertEquals('Hello world nl', $entry->value('text'));
-    }
-
-    public function testSectionEntryIgnoreLocale()
-    {
-        config(['vume.inherit_app_locale' => false]);
-        app()->setLocale('nl');
-
-        $entry = Vume::setAccessToken($this->test_access_token)->section('section-test')->entry();
-
-        $this->assertEquals('Hello world', $entry->value('text'));
-    }
 }
