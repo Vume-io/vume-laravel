@@ -12,6 +12,6 @@ return [
     'api_access_token' => '',
     
     'caching' => false,
-    'caching_dir' => '.',
+    'caching_dir' => storage_path(),
 
 ];
