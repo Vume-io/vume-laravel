@@ -10,5 +10,8 @@ return [
 
     'api_endpoint' => 'https://cms.vume.io',
     'api_access_token' => '',
+    
+    'caching' => false,
+    'caching_dir' => '.',
 
 ];

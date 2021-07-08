@@ -12,6 +12,14 @@ class CMS
     {
         $this->vume = new VumeCMS(config('vume.api_access_token'));
         $this->vume->setApiEndpoint(config('vume.api_endpoint'));
+
+        if(config('vume.caching')) {
+            $this->vume->setCaching(true);
+        }
+
+        if(config('vume.caching_dir')) {
+            $this->vume->setCachingDir(config('vume.caching_dir'));
+        }
     }
 
     public function __call($method, $args)
